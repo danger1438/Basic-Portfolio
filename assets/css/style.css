@@ -1,17 +1,41 @@
 
-header {
-
-    color:blue
-}
-
-
-
 footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    
+  }
+  section {
+    height: 300px;
+    width: 650px;
+    border: 25px;
+    padding: 50px;
+    margin: 50px;
+    background-color: lightgrey;
+    
+    
 
-    color: green
-}
+  }
 
+  header {
+    height: 50px;
+    width: 200px;
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #4aaaa5;
+    color:white;
+    font-weight: bold;
+   
+    
+      
+  }
 
-h2{
-    color: fuchsia
-}
+  
+  
