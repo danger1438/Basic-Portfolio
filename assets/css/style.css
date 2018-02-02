@@ -1,41 +1,71 @@
 
 footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 2rem;
-    background-color: grey;
-    text-align: center;
-    color: white;
-    font-size: 12px;
-    
-  }
-  section {
-    height: 300px;
-    width: 650px;
-    border: 25px;
-    padding: 50px;
-    margin: 50px;
-    background-color: lightgrey;
-    
-    
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  border-top-width: 4px;
+  border-style: solid;
+  border-color: aqua;   
+}
+section {
+  height: 300px;
+  width: 650px;
+  border: 25px;
+  padding: 50px;
+  margin: 100px;
+  background-color: lightgrey;
+  position: inherit;
+}
+header {
+  height: 50px;
+  width: 200px;
+  border: 5px;
+  padding: 35px;
+  margin: 5px;
+  background-color: #4aaaa5;
+  color:white;
+  font-weight: bold;
+  text-align: center;   
+}  
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+contentsection {
+  height: 500px;
+  width:1200px;
+  border: 25px;
+  padding: 50px;
+  margin: 50px;
+  background-color: blue;
+  float: right;
+  color: #4aaaa5;  
 
-  }
+}
+buttface {
+  height: 80px;
+  width: 270px;
+  border: 25px;
+  padding: 50px;
+  margin: 50px;
+  background-color: grey;
+  float: right;
+  color: #4aaaa5;
+ 
+}
+about{
+  color: #4aaaa5;
+}
+body{
+  background-image: url("../images/intersection.png");
+}
 
-  header {
-    height: 50px;
-    width: 200px;
-    border: 5px;
-    padding: 5px;
-    margin: 5px;
-    background-color: #4aaaa5;
-    color:white;
-    font-weight: bold;
-   
-    
-      
-  }
 
-  
+
   
