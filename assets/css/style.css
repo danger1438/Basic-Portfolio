@@ -1,3 +1,101 @@
+body{
+  background-image: url("../images/intersection.png");
+}
+
+.header {
+  height: 85px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-style: solid;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}  
+
+.name {
+  height: 85px;
+  width: 20%;
+  background-color: teal;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 85px;
+  color: white;
+  font: bold;
+  margin-left: 149px;
+  display: inline-block;
+}
+
+li.has-next {
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+li.no-next {
+  padding: 10px;
+}
+
+.menu{
+  display: inline-block;
+  height: 85px;
+  margin-left: 436px;
+}
+
+.content{
+  width: 960px;
+  height: 580px;
+  margin-left: 149px;
+  margin-top: 100px;
+  float: initial;
+}
+
+.connect{
+  width: 275px;
+  height: 275px;
+  background-color:white;
+  float: right;
+}
+
+.about-me{
+  height: 500px;
+  width: 650px;
+  background-color: white;
+  float: left;
+}
+
+.contact-form {
+  height: 500px;
+  width: 650px;
+  background-color: white;
+  float: left;
+}
+
+name {
+  padding: 80px;
+  margin: 100px;
+  background-color: teal;
+  color: white;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
+  font: bold;
+  font-size: medium;
+  text-align: center;
+}
+
+ul.hori {
+  list-style-type: none;
+  display: flex;
+}
+
+menu{
+  float: right;
+}
+
+about{
+  color: #4aaaa5;
+}
 
 footer {
   position: absolute;
@@ -13,59 +111,11 @@ footer {
   border-style: solid;
   border-color: aqua;   
 }
-section {
-  height: 300px;
-  width: 650px;
-  border: 25px;
-  padding: 50px;
-  margin: 100px;
-  background-color: lightgrey;
-  position: inherit;
-}
-header {
-  height: 50px;
-  width: 200px;
-  border: 5px;
-  padding: 35px;
-  margin: 5px;
-  background-color: #4aaaa5;
-  color:white;
-  font-weight: bold;
-  text-align: center;   
-}  
+
 a {
   text-decoration: none;
   font-size: 16px;
 }
-contentsection {
-  height: 500px;
-  width:1200px;
-  border: 25px;
-  padding: 50px;
-  margin: 50px;
-  background-color: blue;
-  float: right;
-  color: #4aaaa5;  
-
-}
-buttface {
-  height: 80px;
-  width: 270px;
-  border: 25px;
-  padding: 50px;
-  margin: 50px;
-  background-color: grey;
-  float: right;
-  color: #4aaaa5;
- 
-}
-about{
-  color: #4aaaa5;
-}
-body{
-  background-image: url("../images/intersection.png");
-}
-
-
 
   
+
