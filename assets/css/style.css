@@ -16,10 +16,16 @@ body{
   border-bottom: 1px solid black;
 }  
 
+.about-me-img{
+  float: left;
+  vertical-align: top;
+  margin: 7px 7px 7px 7px; 
+}
+
 .name {
   height: 85px;
   width: 20%;
-  background-color: teal;
+  background-color: #4aaaa5;
   text-align: center;
   vertical-align: middle;
   line-height: 85px;
@@ -27,6 +33,7 @@ body{
   font: bold;
   margin-left: 149px;
   display: inline-block;
+
 }
 
 li.has-next {
@@ -42,6 +49,7 @@ li.no-next {
   display: inline-block;
   height: 85px;
   margin-left: 436px;
+  color:#777777;
 }
 
 .content{
@@ -50,20 +58,64 @@ li.no-next {
   margin-left: 149px;
   margin-top: 100px;
   float: initial;
+  
 }
 
 .connect{
-  width: 275px;
-  height: 275px;
+  width: 253px;
+  height: 189px;
   background-color:white;
   float: right;
+  text-align: center;
+  
+
+}
+ .menu-img{
+margin-top: 20px;
+ }
+
+ .menu-text{
+  margin-top: 30px;
+  
+ }
+h3{
+  font-family: 'Georgia', Times, Times "New Roman", serif;
+  color: #4aaaa5;
+  margin-left: 20px;
+  font-size: 20px;
+}
+h2{
+  font-family: 'Georgia', Times, Times "New Roman", serif;
+  color:#777777;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  line-height: 40px;
 }
 
+
+hr{
+  width: 90%;
+  text-align: center;
+
+}
 .about-me{
   height: 500px;
   width: 650px;
   background-color: white;
   float: left;
+  color:#777777;
+}
+
+#form-button {
+  background-color: #4aaaa5;
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
 }
 
 .contact-form {
@@ -76,7 +128,7 @@ li.no-next {
 name {
   padding: 80px;
   margin: 100px;
-  background-color: teal;
+  background-color:#4aaaa5;
   color: white;
   font-family: 'Georgia', Times, "Times New Roman", serif;
   font: bold;
@@ -93,8 +145,11 @@ menu{
   float: right;
 }
 
-about{
+.about{
   color: #4aaaa5;
+    font-size: 50px;
+    margin-left: 32px;
+  
 }
 
 footer {
@@ -116,6 +171,3 @@ a {
   text-decoration: none;
   font-size: 16px;
 }
-
-  
-
