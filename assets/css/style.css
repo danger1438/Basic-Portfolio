@@ -4,7 +4,7 @@ body{
 
 .header {
   height: 85px;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   left: 0;
@@ -33,7 +33,6 @@ body{
   font: bold;
   margin-left: 149px;
   display: inline-block;
-
 }
 
 li.has-next {
@@ -67,23 +66,23 @@ li.no-next {
   background-color:white;
   float: right;
   text-align: center;
-  
-
 }
- .menu-img{
-margin-top: 20px;
+
+.menu-img{
+  margin-top: 20px;
  }
 
- .menu-text{
-  margin-top: 30px;
-  
- }
+.menu-text{
+  margin-top: 30px;  
+}
+ 
 h3{
   font-family: 'Georgia', Times, Times "New Roman", serif;
   color: #4aaaa5;
   margin-left: 20px;
   font-size: 20px;
 }
+
 h2{
   font-family: 'Georgia', Times, Times "New Roman", serif;
   color:#777777;
@@ -93,14 +92,22 @@ h2{
   line-height: 40px;
 }
 
-
 hr{
   width: 90%;
   text-align: center;
 
 }
+
 .about-me{
   height: 500px;
+  width: 650px;
+  background-color: white;
+  float: left;
+  color:#777777;
+}
+
+.port-images{
+  height: 900px;
   width: 650px;
   background-color: white;
   float: left;
@@ -147,13 +154,13 @@ menu{
 
 .about{
   color: #4aaaa5;
-    font-size: 50px;
-    margin-left: 32px;
+  font-size: 50px;
+  margin-left: 32px;
   
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -164,10 +171,20 @@ footer {
   font-size: 12px;
   border-top-width: 4px;
   border-style: solid;
-  border-color: aqua;   
+  border-color: #4aaaa5;   
 }
 
 a {
   text-decoration: none;
   font-size: 16px;
+
+}
+.first{
+  float:left;
+  margin: 15px;
+  margin-top: 15px;
+}
+.sec{
+  float:right;
+  margin:15px;
 }
